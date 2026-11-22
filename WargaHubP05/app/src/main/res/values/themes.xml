@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WargaHubP05" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/p05_navy</item>
+        <item name="colorAccent">@color/p05_navy</item>
+        <item name="android:windowBackground">@color/p05_page</item>
+    </style>
+</resources> 

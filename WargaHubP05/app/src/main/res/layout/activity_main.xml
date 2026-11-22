@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/p05_page"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            style="@style/Widget.WargaHubP05.Title"
+            android:text="@string/judul_daftar" />
+        <TextView
+            style="@style/Widget.WargaHubP05.Text"
+            android:text="@string/catatan_lokal" />
+        <Button
+            android:id="@+id/btnTambah"
+            style="@style/Widget.WargaHubP05.Button"
+            android:text="@string/tambah" />
+        <CheckBox
+            android:id="@+id/cbTerbaru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/urut_terbaru" />
+        <TextView
+            android:id="@+id/tvStatus"
+            style="@style/Widget.WargaHubP05.Text"
+            android:accessibilityLiveRegion="polite" />
+        <TextView
+            android:id="@+id/tvPreferensi"
+            style="@style/Widget.WargaHubP05.Text"
+            android:visibility="gone"
+            android:accessibilityLiveRegion="polite" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLaporan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="16dp"
+        android:clipToPadding="false" />
+</LinearLayout>

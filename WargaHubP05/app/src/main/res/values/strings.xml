@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WargaHub P05</string>
+    <string name="judul_daftar">Laporan di Perangkat</string>
+    <string name="catatan_lokal">Data latihan disimpan pada perangkat, belum dikirim ke server.</string>
+    <string name="tambah">Tambah Laporan</string>
+    <string name="urut_terbaru">Urutkan terbaru lebih dahulu</string>
+    <string name="memuat">Memuat data...</string>
+    <string name="daftar_kosong">Belum ada laporan. Pilih Tambah Laporan.</string>
+    <string name="jumlah_laporan">%1$d laporan tersimpan lokal</string>
+    <string name="judul_form">Formulir Laporan Lokal</string>
+    <string name="info_tambah">Isi semua kolom dengan data fiktif.</string>
+    <string name="info_ubah">Ubah isian lalu simpan; ID laporan tetap sama.</string>
+    <string name="label_judul">Judul laporan</string>
+    <string name="hint_judul">Contoh: UJI-P05-001 lampu padam</string>
+    <string name="label_kategori">Kategori laporan</string>
+    <string name="label_deskripsi">Deskripsi masalah</string>
+    <string name="hint_deskripsi">Jelaskan masalah fiktif minimal 20 karakter.</string>
+    <string name="simpan">Simpan ke Perangkat</string>
+    <string name="hapus">Hapus Laporan</string>
+    <string name="kembali">Kembali ke Daftar</string>
+    <string name="error_judul">Judul minimal 5 karakter.</string>
+    <string name="error_kategori">Pilih kategori laporan yang valid.</string>
+    <string name="error_deskripsi">Deskripsi minimal 20 karakter.</string>
+    <string name="konfirmasi_hapus">Hapus laporan ini dari perangkat?</string>
+    <string name="ya_hapus">Ya, Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="row_info">ID %1$d • %2$s • Tersimpan lokal</string>
+    <string name="row_a11y">%1$s. ID %2$d. Kategori %3$s. Buka untuk mengubah.</string>
+    <string-array name="kategori_laporan">
+        <item>Pilih kategori laporan</item>
+        <item>Jalan rusak</item>
+        <item>Sampah menumpuk</item>
+        <item>Lampu jalan padam</item>
+        <item>Drainase tersumbat</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>
